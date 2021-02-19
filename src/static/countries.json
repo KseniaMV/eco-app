@@ -1,0 +1,362 @@
+[
+	{
+		"flag": "https://restcountries.eu/data/brb.svg",
+		"name": "barbados"
+	},
+	{
+		"flag": "https://restcountries.eu/data/blr.svg",
+		"name": "belarus"
+	},
+	{
+		"flag": "https://restcountries.eu/data/brn.svg",
+		"name": "brunei "
+	},
+	{
+		"flag": "https://restcountries.eu/data/khm.svg",
+		"name": "cambodia"
+	},
+	{
+		"flag": "https://restcountries.eu/data/hkg.svg",
+		"name": "hong kong"
+	},
+	{
+		"flag": "https://restcountries.eu/data/idn.svg",
+		"name": "indonesia"
+	},
+	{
+		"flag": "https://restcountries.eu/data/jpn.svg",
+		"name": "japan"
+	},
+	{
+		"flag": "https://restcountries.eu/data/kgz.svg",
+		"name": "kyrgyzstan"
+	},
+	{
+		"flag": "https://restcountries.eu/data/mac.svg",
+		"name": "macao"
+	},
+	{
+		"flag": "https://restcountries.eu/data/mys.svg",
+		"name": "malaysia"
+	},
+	{
+		"flag": "https://restcountries.eu/data/mng.svg",
+		"name": "mongolia"
+	},
+	{
+		"flag": "https://restcountries.eu/data/mmr.svg",
+		"name": "myanmar"
+	},
+	{
+		"flag": "https://restcountries.eu/data/phl.svg",
+		"name": "philippines"
+	},
+	{
+		"flag": "https://restcountries.eu/data/sgp.svg",
+		"name": "singapore"
+	},
+	{
+		"flag": "https://restcountries.eu/data/twn.svg",
+		"name": "taiwan"
+	},
+	{
+		"flag": "https://restcountries.eu/data/tha.svg",
+		"name": "thailand"
+	},
+	{
+		"flag": "https://restcountries.eu/data/bhr.svg",
+		"name": "bahrain"
+	},
+	{
+		"flag": "https://restcountries.eu/data/geo.svg",
+		"name": "georgia"
+	},
+	{
+		"flag": "https://restcountries.eu/data/ind.svg",
+		"name": "india"
+	},
+	{
+		"flag": "https://restcountries.eu/data/irn.svg",
+		"name": "iran"
+	},
+	{
+		"flag": "https://restcountries.eu/data/irq.svg",
+		"name": "iraq"
+	},
+	{
+		"flag": "https://restcountries.eu/data/isr.svg",
+		"name": "israel"
+	},
+	{
+		"flag": "https://restcountries.eu/data/jor.svg",
+		"name": "jordan"
+	},
+	{
+		"flag": "https://restcountries.eu/data/kwt.svg",
+		"name": "kuwait"
+	},
+	{
+		"flag": "https://restcountries.eu/data/lbn.svg",
+		"name": "lebanon"
+	},
+	{
+		"flag": "https://restcountries.eu/data/omn.svg",
+		"name": "oman"
+	},
+	{
+		"flag": "https://restcountries.eu/data/pak.svg",
+		"name": "pakistan"
+	},
+	{
+		"flag": "https://restcountries.eu/data/rus.svg",
+		"name": "russian Federation (Moscow)"
+	},
+	{
+		"flag": "https://restcountries.eu/data/sau.svg",
+		"name": "saudi arabia"
+	},
+	{
+		"flag": "https://restcountries.eu/data/tur.svg",
+		"name": "turkey"
+	},
+	{
+		"flag": "https://restcountries.eu/data/arg.svg",
+		"name": "argentina"
+	},
+	{
+		"flag": "https://restcountries.eu/data/bol.svg",
+		"name": "bolivia"
+	},
+	{
+		"flag": "https://restcountries.eu/data/bra.svg",
+		"name": "brazil"
+	},
+	{
+		"flag": "https://restcountries.eu/data/col.svg",
+		"name": "colombia"
+	},
+	{
+		"flag": "https://restcountries.eu/data/ecu.svg",
+		"name": "ecuador"
+	},
+	{
+		"flag": "https://restcountries.eu/data/gtm.svg",
+		"name": "guatemala"
+	},
+	{
+		"flag": "https://restcountries.eu/data/mex.svg",
+		"name": "mexico"
+	},
+	{
+		"flag": "https://restcountries.eu/data/pan.svg",
+		"name": "panama"
+	},
+	{
+		"flag": "https://restcountries.eu/data/per.svg",
+		"name": "peru"
+	},
+	{
+		"flag": "https://restcountries.eu/data/pri.svg",
+		"name": "puerto rico"
+	},
+	{
+		"flag": "https://restcountries.eu/data/slv.svg",
+		"name": "salvador"
+	},
+	{
+		"flag": "https://restcountries.eu/data/can.svg",
+		"name": "canada"
+	},
+	{
+		"flag": "https://restcountries.eu/data/alb.svg",
+		"name": "albania"
+	},
+	{
+		"flag": "https://restcountries.eu/data/and.svg",
+		"name": "andorra"
+	},
+	{
+		"flag": "https://restcountries.eu/data/aut.svg",
+		"name": "austria"
+	},
+	{
+		"flag": "https://restcountries.eu/data/bel.svg",
+		"name": "belgium"
+	},
+	{
+		"flag": "https://restcountries.eu/data/bgr.svg",
+		"name": "bulgaria"
+	},
+	{
+		"flag": "https://restcountries.eu/data/hrv.svg",
+		"name": "croatia"
+	},
+	{
+		"flag": "https://restcountries.eu/data/cyp.svg",
+		"name": "cyprus"
+	},
+	{
+		"flag": "https://restcountries.eu/data/dnk.svg",
+		"name": "denmark"
+	},
+	{
+		"flag": "https://restcountries.eu/data/est.svg",
+		"name": "estonia"
+	},
+	{
+		"flag": "https://restcountries.eu/data/fin.svg",
+		"name": "finland"
+	},
+	{
+		"flag": "https://restcountries.eu/data/fra.svg",
+		"name": "france"
+	},
+	{
+		"flag": "https://restcountries.eu/data/deu.svg",
+		"name": "germany"
+	},
+	{
+		"flag": "https://restcountries.eu/data/gib.svg",
+		"name": "gibraltar"
+	},
+	{
+		"flag": "https://restcountries.eu/data/grc.svg",
+		"name": "greece"
+	},
+	{
+		"flag": "https://restcountries.eu/data/hun.svg",
+		"name": "hungary"
+	},
+	{
+		"flag": "https://restcountries.eu/data/isl.svg",
+		"name": "iceland"
+	},
+	{
+		"flag": "https://restcountries.eu/data/irl.svg",
+		"name": "ireland"
+	},
+	{
+		"flag": "https://restcountries.eu/data/ita.svg",
+		"name": "italy"
+	},
+	{
+		"flag": "https://restcountries.eu/data/kos.svg",
+		"name": "kosovo"
+	},
+	{
+		"flag": "https://restcountries.eu/data/ltu.svg",
+		"name": "lithuania"
+	},
+	{
+		"flag": "https://restcountries.eu/data/lux.svg",
+		"name": "luxembourg"
+	},
+	{
+		"flag": "https://restcountries.eu/data/mkd.svg",
+		"name": "macedonia"
+	},
+	{
+		"flag": "https://restcountries.eu/data/mlt.svg",
+		"name": "malta"
+	},
+	{
+		"flag": "https://restcountries.eu/data/mne.svg",
+		"name": "montenegro"
+	},
+	{
+		"flag": "https://restcountries.eu/data/nld.svg",
+		"name": "netherlands"
+	},
+	{
+		"flag": "https://restcountries.eu/data/nor.svg",
+		"name": "norway"
+	},
+	{
+		"flag": "https://restcountries.eu/data/pol.svg",
+		"name": "poland"
+	},
+	{
+		"flag": "https://restcountries.eu/data/prt.svg",
+		"name": "portugal"
+	},
+	{
+		"flag": "https://restcountries.eu/data/rou.svg",
+		"name": "romania"
+	},
+	{
+		"flag": "https://restcountries.eu/data/srb.svg",
+		"name": "serbia"
+	},
+	{
+		"flag": "https://restcountries.eu/data/svk.svg",
+		"name": "slovakia"
+	},
+	{
+		"flag": "https://restcountries.eu/data/svn.svg",
+		"name": "slovenia"
+	},
+	{
+		"flag": "https://restcountries.eu/data/esp.svg",
+		"name": "spain"
+	},
+	{
+		"flag": "https://restcountries.eu/data/swe.svg",
+		"name": "sweden"
+	},
+	{
+		"flag": "https://restcountries.eu/data/che.svg",
+		"name": "switzerland"
+	},
+	{
+		"flag": "https://restcountries.eu/data/ukr.svg",
+		"name": "ukraine"
+	},
+	{
+		"flag": "https://restcountries.eu/data/aus.svg",
+		"name": "australia"
+	},
+	{
+		"flag": "https://restcountries.eu/data/dza.svg",
+		"name": "algeria"
+	},
+	{
+		"flag": "https://restcountries.eu/data/gha.svg",
+		"name": "ghana"
+	},
+	{
+		"flag": "https://restcountries.eu/data/usa.svg",
+		"name": "united states"
+	},
+	{
+		"flag": "https://restcountries.eu/data/gbr.svg",
+		"name": "united kingdom"
+	},
+	{
+		"flag": "https://restcountries.eu/data/zaf.svg",
+		"name": "south africa"
+	},
+	{
+		"flag": "https://restcountries.eu/data/nzl.svg",
+		"name": "new zealand"
+	},
+	{
+		"flag": "https://restcountries.eu/data/cze.svg",
+		"name": "czech republic"
+	},
+	{
+		"flag": "https://restcountries.eu/data/bih.svg",
+		"name": "bosnia and herzegovina"
+	},
+	{
+		"flag": "https://restcountries.eu/data/are.svg",
+		"name": "united arab emirates"
+	},
+	{
+		"flag": "https://restcountries.eu/data/lka.svg",
+		"name": "sri lanka"
+	},
+	{
+		"flag": "https://restcountries.eu/data/ncl.svg",
+		"name": "new caledonia"
+	}
+]

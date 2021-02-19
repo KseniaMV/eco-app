@@ -1,0 +1,168 @@
+@import url(//fonts.googleapis.com/css?family=Lato:300:400);
+.header {
+	width: 100%;
+	height: 100px;
+	position: relative;
+	text-align: center;
+	background: $bg-gradient;
+	&__body {
+		display: flex;
+	}
+	&__menu {
+		width: 260px;
+		height: 100vh;
+		background: $green-bg-color;
+		position: absolute;
+		top: 0px;
+		left: 0;
+		z-index: 15;
+		transform: translate(-100%, 0);
+		transition: all 0.4s linear 0.1s;
+		overflow: auto;
+	}
+	.header__menu.active {
+		transform: translate(0, 0);
+	}
+	&__list {
+		padding: 90px 0px 0px 20px;
+		display: flex;
+		flex-direction: column;
+		margin: 0 auto;
+		li {
+			margin: 0px 0px 14px 0px;
+			transition: all 0.4s ease-in 0.2s;
+			list-style-type: none;
+			text-transform: uppercase;
+			@include adaptiv-font(25, 20);
+			&:hover {
+				transform: scale(1.05);
+			}
+		}
+		a {
+			text-decoration: none;
+			color: $default-color;
+			letter-spacing: 1.2px;
+			transition: all 0.4s linear 0.2s;
+			&:hover {
+				color: $blue-bg-color;
+			}
+		}
+	}
+	&__toggle {
+		display: block;
+		top: 20px;
+		left: 20px;
+		z-index: 50;
+		position: fixed;
+		width: 35px;
+		height: 22px;
+		cursor: pointer;
+		span {
+			background: $default-color;
+			position: absolute;
+			left: 0;
+			width: 100%;
+			height: 2px;
+			top: 10px;
+			transition: all 0.3s ease 0.2s;
+		}
+		&:before,
+		&:after {
+			content: "";
+			background: $default-color;
+			position: absolute;
+			width: 100%;
+			height: 2px;
+			left: 0;
+			transition: all 0.3s ease 0.2s;
+		}
+		&:before {
+			top: 0;
+		}
+		&:after {
+			bottom: 0;
+		}
+	}
+	.active {
+		span {
+			transform: scale(0);
+		}
+	}
+	.active::before {
+		transform: rotate(45deg);
+		top: 11px;
+	}
+	.active::after {
+		transform: rotate(-45deg);
+		bottom: 9px;
+	}
+}
+
+
+.header__logo {
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	top: 10px;
+	left: calc(100vw - 60px);
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.inner-header {
+	height: 150px;
+	width: 100%;
+}
+
+.flex {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.waves {
+	position: absolute;
+	top: 50px;
+	left: 0;
+	width: 100%;
+	height: 10vh;
+	margin-bottom: -7px; 
+}
+
+/* Animation */
+.parallax > use {
+	animation: move-forever 25s cubic-bezier(0.55, 0.5, 0.45, 0.5) infinite;
+}
+.parallax > use:nth-child(1) {
+	animation-delay: -2s;
+	animation-duration: 7s;
+}
+.parallax > use:nth-child(2) {
+	animation-delay: -3s;
+	animation-duration: 10s;
+}
+.parallax > use:nth-child(3) {
+	animation-delay: -4s;
+	animation-duration: 13s;
+}
+.parallax > use:nth-child(4) {
+	animation-delay: -5s;
+	animation-duration: 20s;
+}
+
+@keyframes move-forever {
+	0% {
+		transform: translate3d(-90px, 0, 0);
+	}
+	100% {
+		transform: translate3d(85px, 0, 0);
+	}
+}
+
+@media (max-width: 768px) {
+	.waves {
+		height: 60px;
+		min-height: 40px;
+	}
+}

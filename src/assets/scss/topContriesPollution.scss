@@ -1,0 +1,77 @@
+.main__btn-conteiner {
+	width: 290px;
+	height: 100px;
+	margin: auto;
+	@include flex-nowrap-row-center();
+	color: #fbfbfb;
+}
+
+.cleanList_btn,
+.dirtyList_btn {
+	width: 140px;
+	height: 90%;
+	margin: auto;
+	border: none;
+	border-radius: 20px;
+	background-color: transparent;
+	font-family: $mainFont;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 2px rgb(0,0,0);
+	@include adaptiv-font(24px, 18px);
+	color: $default-color;
+	cursor: pointer;
+}
+
+.button--active {
+	border: 2px solid $default-color;
+	box-shadow: 0 0 20px 2px rgba(0,0,0,.3);
+	outline: none;
+}
+
+.list-dirtyCountries,
+.list-cleanCounturies {
+	width: 250px;
+	height: auto;
+	position: absolute;
+	top: 100px;
+	left: calc(100% - 290px)/2;
+	li {
+		width: 80%;
+		height: 30px;
+		margin-bottom: 10px;
+		font-family: $mainFont;
+		color: $default-color;
+		font-weight: bold;
+		text-shadow: 1px 1px 2px rgb(0,0,0);
+		text-transform: uppercase;
+		@include adaptiv-font(16, 12);
+		@include flex-nowrap-row-left();
+		cursor: default;
+		img {
+			width: 20px;
+			height: 15px;
+			margin-right: 5px;
+		}
+	}
+}
+
+.county-list--hidden {
+	visibility: hidden;
+}
+
+
+
+
+
+
+
+
+
+@media(max-width:1400px){
+	.accordion {
+		width: 270px;
+	}
+	.accordion__header {
+		width: 125px;
+	}
+}

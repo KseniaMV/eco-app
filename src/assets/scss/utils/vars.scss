@@ -1,0 +1,45 @@
+// Font
+$mainFont: "AvenirNextCyr-Demi", Helvetica, Arial, sans-serif;
+
+// Size
+$mainFontColor: #101010;
+$mainFontSize: 18px;
+$mainFontWeight: 400;
+$mainLineHeight: 1.4;
+
+$desktopWidth: 1280px;
+$smDesktopWidth: 1024px;
+$tableWidth: 768px;
+$smTableWidth: 640px;
+$phoneWidth: 480px;
+$smPhoneWidth: 320px;
+
+// Main color
+$green-bg-color: rgb(76, 112, 90);
+$blue-bg-color: rgb(48, 64, 98);
+$default-color: #ffffff;
+$hover-color: rgb(125, 151, 74);
+
+//marker color
+$very-unhealthy: rgb(160, 112, 182);
+$unhealthy: rgb(246, 94, 95);
+$WHO-target: rgb(96, 172, 203);
+$moderate: rgb(250, 207, 57);
+$hazardous: rgb(160, 106, 123);
+$good: rgb(156, 216, 78);
+$unhealthy-sensitive: rgb(249, 144, 73);
+
+// Neutral Color
+$neutral-primary: #303133;
+$neutral-regular: #606266;
+$neutral-secondary: #909399;
+$neutral-placeholder: #c0c4cc;
+
+// Border Color
+$border-base: #dcdfe6;
+$border-light: #e4e7ed;
+$border-lighter: #ebeef5;
+$border-lightex: #f2f6fc;
+
+//gradient
+$bg-gradient: linear-gradient(60deg, rgb(48, 64, 88) 0%, rgb(76, 112, 90) 100%);

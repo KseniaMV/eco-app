@@ -1,0 +1,45 @@
+@function rem($px) {
+  @return ($px / 16) +rem;
+}
+
+@function calcsum($x, $y) {
+  @return ($x + $y) + px;
+}
+
+
+@mixin flex-nowrap-row-center {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin flex-nowrap-row-left {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+@mixin flex-wrap-row-center {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+
+@mixin flex-nowrap-column-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin flex-wrap-column-center {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}

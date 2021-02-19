@@ -1,0 +1,30 @@
+{
+    "AQI":{
+        "title": "Air quality index",
+        "desc": "Shows how polluted the air is at present or how much its pollution is predicted. "
+    }, 
+    "CO":{
+        "title": "Carbon monoxide",
+        "desc": "Sourses: vehicles, heat and power engineering"
+    }, 
+    "O3":{
+        "title": "Ground-level ozone",
+        "desc": "Sourses: photochemical reactions under the influence of solar radiation"
+    },
+    "NO2":{
+        "title": "Nitrogen dioxide",
+        "desc": "Sourses: motor vehicles, heat power engineering, petrochemical enterprises" 
+    }, 
+    "SO2":{
+        "title": "Sulfur dioxide",
+        "desc": "Sourses: heat power engineering, oil refining, motor transport"
+    }, 
+    "PM10":{
+        "title": "Suspended particles PM10",
+        "desc": "Sourses: global transboundary transport, road transport, industry, soils, roads, heat power engineering."
+    }, 
+    "PM2.5":{
+        "title": "Suspended particles PM2.5",
+        "desc": "Sourses: global cross-border transport, road transport, industry."
+    }
+}

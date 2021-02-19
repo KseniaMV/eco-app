@@ -1,0 +1,24 @@
+@import "utils/vars";
+@import "utils/mixins";
+@import "utils/fonts";
+@import "utils/_textmixin";
+//@import "utils/_reset";
+@import "utils/_normalize";
+@import "utils/_smart-grid";
+@import "./main-content.scss";
+@import "./header.scss";
+@import "./main-content.scss";
+@import "./timeTillEnd.scss";
+@import "./countryDetailsInfo.scss";
+@import "./elementDescription.scss";
+@import "./colorValueDescription.scss";
+@import "./footer.scss";
+@import "./topContriesPollution.scss";
+@import "./fullscreen.scss";
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+}

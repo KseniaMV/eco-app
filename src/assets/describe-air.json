@@ -1,0 +1,44 @@
+{
+	"good": {
+		"min": 0,
+		"max": 50,
+		"describe": "Air quality is considered satisfactory, and air pollution poses little or no risk",
+		"recomendation": "none",
+		"color": "rgba(156, 216, 78, 1)"
+	},
+	"moderate": {
+		"min": 51,
+		"max": 100,
+		"describe": "Air quality is acceptable; however, for some pollutants there may be a moderate health concern for a very small number of people who are unusually sensitive to air pollution.",
+		"recomendation": "Active children and adults, and people with respiratory disease, such as asthma, should limit prolonged outdoor exertion",
+		"color": "rgba(250, 207, 57, 1)"
+	},
+	"unhealthy for sensitive groups": {
+		"min": 101,
+		"max": 150,
+		"describe": "Members of sensitive groups may experience health effects. The general public is not likely to be affected.",
+		"recomendation": "Active children and adults, and people with respiratory disease, such as asthma, should limit prolonged outdoor exertion.",
+		"color": "rgba(249, 144, 73, 1)"
+	},
+	"unhealthy": {
+		"min": 151,
+		"max": 200,
+		"describe": "Everyone may begin to experience health effects; members of sensitive groups may experience more serious health effects",
+		"recomendation": "Active children and adults, and people with respiratory disease, such as asthma, should avoid prolonged outdoor exertion; everyone else, especially children, should limit prolonged outdoor exertion.",
+		"color": "rgba(246, 94, 95, 1)"
+	},
+	"very unhealthy": {
+		"min": 201,
+		"max": 300,
+		"describe": "Health warnings of emergency conditions. The entire population is more likely to be affected.",
+		"recomendation": "Active children and adults, and people with respiratory disease, such as asthma, should avoid all outdoor exertion; everyone else, especially children, should limit outdoor exertion.",
+		"color": "rgba(160, 112, 182, 1)"
+	},
+	"hazardous": {
+		"min": 300,
+		"max": 1000,
+		"describe": "Health alert! Everyone may experience more serious health effects",
+		"recomendation": "Everyone should avoid all outdoor exertion",
+		"color": "rgba(160, 106, 123, 1)"
+	}
+}

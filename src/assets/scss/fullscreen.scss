@@ -1,0 +1,130 @@
+.full-screen__filter {
+	width: 100%;
+	height: calc(100vh - 150px);
+	min-height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: $default-color;
+	@include flex-nowrap-row-center();
+	z-index: 50;
+}
+
+.filter-screen__button {
+	width: 80px;
+	height: auto;
+	background-color: transparent;
+	border: none;
+	font-family: $mainFont;
+	font-size: 24px;
+	font-weight: bold;
+	color: $blue-bg-color;
+	position: absolute;
+	top: 0;
+	left: calc(100vw - 100px);
+	cursor: pointer;
+	z-index: 50;
+}
+
+.button--full-screen {
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: transparent;
+	border: none;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 20px;
+	z-index: 50;
+	color: $good;
+	cursor: pointer;
+}
+
+.filter-screen__button{
+	outline: none;
+	border:none;
+	color:$hover-color;
+}
+.full-screen--default{
+	outline: none;
+	border:none;
+	color:$hover-color;
+}
+
+.map__button--full-screen {
+	width: 35px;
+	height: 35px;
+	background-color: $default-color;
+	position: absolute;
+	top: 40px;
+	left: 360px;
+	z-index: inherit;
+	border: none;
+	background-color: transparent;
+	color: $default-color;
+	cursor: pointer;
+}
+
+.display--none {
+	display: none;
+}
+
+.element--full-screen {
+	width: 100%;
+	height: 80%;
+	margin: auto 0;	
+}
+
+
+.country-info--full-screen {
+	width: 50%;
+	left: calc(25% + 175px);
+}
+
+.country-info--full-screen
+.elements-list__element {
+	width: 60%;
+}
+
+.country-info--full-screen
+.country-info__forecast-conteiner {
+	width: 350px;
+	left: -350px; 
+}
+
+
+@media screen and (max-width: 575px) {
+	.full-screen__filter{
+		height: 100%;
+	}
+
+	.filter-screen__button {
+		width: 80px;
+		top: 20px;
+		left: 80%;
+		z-index: 50;
+		background-color: transparent;
+	}
+
+	.country-info--full-screen {
+		width: 100%;
+		left: 0;
+		top: 0;
+	}
+	
+	.country-info--full-screen .elements-list__element {
+		width: 100%;
+	}
+	
+	.country-info--full-screen
+	.country-info__forecast-conteiner {
+		width: 360px;
+		margin-top: 10px;
+		left: 10px; 
+		top: 100%;
+	}
+}
+
+
