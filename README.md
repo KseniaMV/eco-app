@@ -7,7 +7,7 @@
 + js/ts
 + scss
 + webpack
-+ api [link ti API](https://aqicn.org/api/ru/)
++ api [link to API](https://aqicn.org/api/ru/)
 
 ## Developers
 + KseniaMV [link to github](https://github.com/KseniaMV)
