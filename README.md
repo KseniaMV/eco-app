@@ -13,3 +13,6 @@
 + KseniaMV [link to github](https://github.com/KseniaMV)
 + vovantais [link to github](https://github.com/vovantais)
 + nataliapantiukhova [link to github](https://github.com/nataliapantiukhova)
+
+
+[Deploy](https://eco-app.netlify.app/)
